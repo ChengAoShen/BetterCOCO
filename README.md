@@ -8,3 +8,5 @@ COCO format is widely used in many places as a common data format in the field o
 * `fix_COCO_bb_problem.py`: This script repairs COCO annotation polygons that have fewer than 5 points by duplicating the last point until there are exactly 5 points. This is a common issue when converting annotations from other formats to COCO format and this problem will cause `bb` error.
 * `show_mask.py`: This script displays images and their associated COCO annotations. It loads the specified images and annotations, and visualizes the annotations on the images using `Matplotlib`.
 * `split_coco_json.py`: This script splits a COCO-format dataset into training and validation subsets, facilitating machine learning model training and evaluation. 
+* `count_instances.py`: This script use to contain the number of instances of each images.
+* `merge_COCO.py`: This script merges multiple COCO-format datasets into a single dataset.
